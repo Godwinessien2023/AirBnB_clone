@@ -42,18 +42,19 @@ section.filters button:hover {
     margin: 0;
     text-align: left;
 }
-.locations, .amenities {
-    height: 100%;
-    width: 25%;
-}
+
 .locations {
     border-right: 1px solid #DDDDDD;
     display: grid;
     place-content: center;
+    height: 100%;
+    width: 25%;
 }
 
 .amenities{
     margin-right: auto;
     display: grid;
     place-content: center;
+    height: 100%;
+    width: 25%;
 }
